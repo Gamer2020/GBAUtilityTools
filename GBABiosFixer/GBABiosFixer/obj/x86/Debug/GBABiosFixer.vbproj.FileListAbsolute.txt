@@ -1,0 +1,13 @@
+C:\Users\Gamer2020\Desktop\GBABiosFixer\GBABiosFixer\bin\Debug\GBABiosFixer.exe
+C:\Users\Gamer2020\Desktop\GBABiosFixer\GBABiosFixer\bin\Debug\GBABiosFixer.pdb
+C:\Users\Gamer2020\Desktop\GBABiosFixer\GBABiosFixer\bin\Debug\GBABiosFixer.xml
+C:\Users\Gamer2020\Desktop\GBABiosFixer\GBABiosFixer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Gamer2020\Desktop\GBABiosFixer\GBABiosFixer\obj\x86\Debug\GBABiosFixer.Resources.resources
+C:\Users\Gamer2020\Desktop\GBABiosFixer\GBABiosFixer\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Gamer2020\Desktop\GBABiosFixer\GBABiosFixer\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Gamer2020\Desktop\GBABiosFixer\GBABiosFixer\obj\x86\Debug\GBABiosFixer.exe
+C:\Users\Gamer2020\Desktop\GBABiosFixer\GBABiosFixer\obj\x86\Debug\GBABiosFixer.xml
+C:\Users\Gamer2020\Desktop\GBABiosFixer\GBABiosFixer\obj\x86\Debug\GBABiosFixer.pdb
+C:\devkitPro\GBAworkspace\GBAUtilityTools\GBABiosFixer\GBABiosFixer\obj\x86\Debug\GBABiosFixer.exe
+C:\devkitPro\GBAworkspace\GBAUtilityTools\GBABiosFixer\GBABiosFixer\obj\x86\Debug\GBABiosFixer.xml
+C:\devkitPro\GBAworkspace\GBAUtilityTools\GBABiosFixer\GBABiosFixer\obj\x86\Debug\GBABiosFixer.pdb

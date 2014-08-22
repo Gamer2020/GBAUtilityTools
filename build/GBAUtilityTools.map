@@ -1,0 +1,388 @@
+         w __deregister_frame_info
+         w __register_frame_info
+         w _ITM_deregisterTMCloneTable
+         w _ITM_registerTMCloneTable
+         w _Jv_RegisterClasses
+         U r1
+         U r11
+         U r14
+         U r2
+         U r4
+00080000 N _stack
+02000000 A __eheap_start
+02000000 A __end__
+02000000 A __ewram_end
+02000000 D __ewram_start
+02000000 A __sbss_end__
+02000000 A __sbss_start__
+02040000 A __eheap_end
+03000000 T __iwram_start
+03000000 A __iwram_start__
+03000000 000000a0 T isr_master
+030000a4 0000004c T memset32
+030000f0 00000038 T memcpy32
+03000128 T mpp_call_r7i
+0300012a T mpp_call_r2i
+0300012c T mpp_call_r1i
+03000130 T mppProcessTick
+03000214 T mpp_Channel_NewNote
+030002f4 T mpp_Update_ACHN_notest
+03000684 T mmAllocChannel
+030006f8 T mmReadPattern
+030007e4 T mmUpdateChannel_T0
+03000a24 T mmUpdateChannel_TN
+03000bc4 T mmGetPeriod
+03000c08 T note_table_oct
+03000c26 T note_table_mod
+03000cd0 T mmVBlank
+03000d54 T mmMixerMix
+03001504 A __bss_start
+03001504 A __bss_start__
+03001504 A __iwram_end__
+03001504 b completed.7865
+03001508 b object.7870
+03001520 00000004 B mainmenuselected
+03001524 00000004 b check_val
+03001528 00000002 B __key_curr
+0300152a 00000002 B __key_prev
+0300152c B mmCallback
+03001530 B mmModuleCount
+03001534 B mmModuleBank
+03001538 B mmSampleBank
+0300153c B mm_ch_mask
+03001540 B mm_vblank_function
+03001544 B mmInitialized
+03001548 B mp_solution
+0300154c B mmLayerMain
+03001584 B mmLayerSub
+030015bc B mpp_vars
+030015cc B mpp_layerp
+030015d0 B mpp_channels
+030015e0 B mpp_nchannels
+030015e1 B mpp_clayer
+030015e4 B mm_achannels
+030015e8 B mm_pchannels
+030015ec B mm_num_mch
+030015f0 B mm_num_ach
+030015f4 B mm_schannels
+03001ab4 B mp_writepos
+03001abc B mm_mixchannels
+03001ac4 B mm_mixlen
+03001ad8 B mm_bpmdv
+03001adc B mp_mix_seg
+03001c94 B mm_sfx_bitmask
+03001c98 B mm_sfx_clearmask
+03001ca0 00000004 B __malloc_top_pad
+03001ca4 00000028 B __malloc_current_mallinfo
+03001ccc 00000004 B __malloc_max_sbrked_mem
+03001cd0 00000004 B __malloc_max_total_mem
+03001cd4 00000004 b heap_start.5406
+03001cd8 00000004 B fake_heap_start
+03001cdc 00000004 B fake_heap_end
+03001ce0 00000008 B myTime
+03001ce8 00000032 B main_tmp
+03001d1c 00000004 B haveRTC
+03001d20 00000078 B __isr_table
+03001d98 00000048 B __tte_main_context
+03001de0 A __bss_end__
+03001de0 A __data_start__
+03001de0 D __dso_handle
+03001de4 0000001c D day_of_week
+03001e00 00000008 D __key_rpt
+03001e08 00000004 D gp_tte_context
+03001e0c 00000004 D __ctype_ptr__
+03001e10 00000408 D __malloc_av_
+03002218 00000004 D __malloc_sbrk_base
+0300221c 00000004 D __malloc_trim_threshold
+03002220 00000004 D _impure_ptr
+03002228 00000428 d impure_data
+03002650 t __frame_dummy_init_array_entry
+03002650 A __init_array_start
+03002650 A __preinit_array_end
+03002650 A __preinit_array_start
+03002650 T __TMC_END__
+03002654 t __do_global_dtors_aux_fini_array_entry
+03002654 A __fini_array_start
+03002654 A __init_array_end
+03002658 A __fini_array_end
+03002658 d __JCR_END__
+03002658 d __JCR_LIST__
+0300265c A __data_end__
+0300265c D __iheap_start
+0300265c D __iwram_overlay_end
+0300265c D __iwram_overlay_start
+03007f00 A __sp_usr
+03007fa0 A __sp_irq
+03007ff8 A __irq_flags
+03008000 A __iwram_top
+08000000 T __text_start
+08000000 T _start
+080000c0 t rom_header_end
+080000c4 T __boot_method
+080000c5 T __slave_number
+080000e0 T start_vector
+08000126 t DoEWRAMClear
+08000130 t SkipEWRAMClear
+08000166 t CIW0Skip
+08000170 t CEW0Skip
+08000186 t ClearMem
+08000190 t ClrLoop
+08000196 t ClearMX
+08000198 t _blx_r3_stub
+0800019a t CopyMemChk
+0800019c t CopyMem
+080001a4 t CIDLoop
+080001ac t CIDExit
+08000210 T _init
+08000220 t deregister_tm_clones
+0800024c t register_tm_clones
+0800027c t __do_global_dtors_aux
+080002ac t frame_dummy
+080002f0 00000198 T biosdump
+08000488 00000188 T buttontest
+08000610 0000002c T waitsecs
+0800063c 000000a0 T draw_main_menu
+080006dc 00000280 T MainMenu
+0800095c 00000070 T CreditDevkitArmandtonc
+080009d0 000000e4 T rtc_cmd
+08000ab4 000000e4 T rtc_data
+08000b98 000000b4 T rtc_read
+08000c4c 00000118 T rtc_enable
+08000d64 00000010 T rtc_check
+08000d74 000001e4 T rtc_get
+08000f58 00000130 T RTC_TurnOn
+08001088 000000ac T RTC_GetTime
+08001134 000002e8 T RTC_Main
+0800141c 00000074 T bytecpy
+08001490 00000014 T byteclr
+080014a4 000000c4 T SaveData
+08001568 00000034 T byteverify
+0800159c 00000088 T soundtest
+08001628 00000058 T key_poll
+08001680 00000024 T key_wait_till_hit
+080016a4 0000000c T key_repeat
+080016b0 00000010 T key_repeat_mask
+080016c0 00000014 T key_repeat_limits
+080016d4 00000044 T irq_init
+08001718 00000030 T irq_set_master
+08001748 0000012c T irq_set
+08001874 00000078 T irq_add
+080018ec 000000b8 T irq_delete
+080019a4 00000048 T irq_enable
+080019ec 00000040 T irq_disable
+08001a30 0000002c T chr4c_erase
+08001a5c 000000d0 T tte_init_chr4c
+08001b2c 00000002 T dummy_drawg
+08001b30 00000002 T dummy_erase
+08001b34 0000001c T tte_set_context
+08001b50 00000010 T tte_set_color_attr
+08001b60 0000001c T tte_set_color_attrs
+08001b7c 00000024 T tte_set_color
+08001ba0 0000003c T tte_set_colors
+08001bdc 00000094 T tte_init_base
+08001c70 000000ae T utf8_decode_char
+08001d20 00000014 T tte_cmd_skip
+08001d34 0000003c T tte_cmd_next
+08001d70 00000050 T tte_putc
+08001dc0 0000001c T tte_erase_rect
+08001ddc 00000024 T tte_erase_screen
+08001e00 00000028 T tte_erase_line
+08001e28 000004bc T tte_cmd_default
+080022e4 000000ec T tte_write
+080023d0 00000030 T tte_write_ex
+08002400 000000ec T tte_get_text_size
+080024ec 00000018 T tte_set_margins
+0800250c 00000004 T SoftReset
+08002510 00000004 T RegisterRamReset
+08002514 00000004 T Halt
+08002518 00000004 T Stop
+0800251c 00000004 T IntrWait
+08002520 00000004 T VBlankIntrWait
+08002524 00000004 T Div
+08002528 00000004 T DivArm
+0800252c 00000004 T Sqrt
+08002530 00000004 T ArcTan
+08002534 00000004 T ArcTan2
+08002538 00000004 T CpuSet
+0800253c 00000004 T CpuFastSet
+08002540 00000004 T BiosCheckSum
+08002544 00000004 T BgAffineSet
+08002548 00000004 T ObjAffineSet
+0800254c 00000004 T BitUnPack
+08002550 00000004 T LZ77UnCompWram
+08002554 00000004 T LZ77UnCompVram
+08002558 00000004 T HuffUnComp
+0800255c 00000004 T RLUnCompWram
+08002560 00000004 T RLUnCompVram
+08002564 00000004 T Diff8bitUnFilterWram
+08002568 00000004 T Diff8bitUnFilterVram
+0800256c 00000004 T Diff16bitUnFilter
+08002570 00000004 T SoundBias
+08002574 00000004 T SoundDriverInit
+08002578 00000004 T SoundDriverMode
+0800257c 00000004 T SoundDriverMain
+08002580 00000004 T SoundDriverVSync
+08002584 00000004 T SoundChannelClear
+08002588 00000004 T MidiKey2Freq
+0800258c 00000004 T MultiBoot
+08002590 00000004 T SoundDriverVSyncOff
+08002594 00000004 T SoundDriverVSyncOn
+08002598 00000010 T VBlankIntrDelay
+080025a8 00000012 T DivSafe
+080025bc 00000006 T Mod
+080025c4 00000006 T DivAbs
+080025cc 00000006 T DivArmMod
+080025d4 00000006 T DivArmAbs
+080025dc 00000010 T CpuFastFill
+080025ec 00000036 T memset16
+08002628 00000022 T schr4c_get_pixel
+0800264c 00000030 T schr4c_plot
+0800267c 000000be T schr4c_hline
+0800273c 00000046 T schr4c_vline
+08002784 0000017c T schr4c_line
+08002900 00000344 T schr4c_blit
+08002c44 00000090 T schr4c_frame
+08002cd4 00000124 T schr4c_rect
+08002df8 00000054 T schr4c_prep_map
+08002e4c 00000010 T schr4c_get_ptr
+08002e5c 00000180 T schr4c_floodfill_internal
+08002fdc 00000032 T schr4c_floodfill
+08003014 000000b8 T srf_init
+080030cc 0000001e T srf_pal_copy
+080030ec 00000060 T srf_get_ptr
+0800314c 00000120 T chr4c_drawg_b1cts
+0800326c 0000003e T memcpy16
+080032b0 T mpp_call_r7
+080032b2 T mpp_call_r1
+080032b4 T mpp_call_r2
+080032b6 T mpp_call_r3
+080032b8 T mmSetEventHandler
+080032c0 T mmInit
+08003314 T mmSetVBlankHandler
+0800331a T mmFrame
+08003464 T mmStart
+08003484 T mmJingle
+0800348a T mmPlayModule
+08003554 T mmPause
+08003570 T mmResume
+08003580 T mmActive
+08003586 T mmActiveSub
+0800358c T mmSetModuleVolume
+0800359c T mmSetJingleVolume
+080035d8 T mmPosition
+080035f2 T mmSetModuleTempo
+08003624 T mmSetModulePitch
+08003664 T mmStop
+08003680 t mpp_setbpm
+0800372a T mppUpdateSub
+08003790 t mppProcessTick_incframe
+08003812 t .mppt_exit
+08003886 T mpp_Process_VolumeCommand
+08003abe T mpp_Process_Effect
+080040b0 t mpph_PitchSlide_Down
+080040ba t mpph_LinearPitchSlide_Down
+080040e4 t mpph_PitchSlide_Up
+080040ee t mpph_LinearPitchSlide_Up
+0800420c T ST3_FREQTABLE
+0800462c T IT_PitchTable
+0800494c T mmInitDefault
+0800498c T mmMixerSetSource
+080049a0 T mmMixerSetRead
+080049ae T mmMixerSetFreq
+080049be T mmMixerMulFreq
+080049d2 T mmMixerStopChannel
+080049e4 T mmMixerChannelActive
+080049f6 T mmMixerSetVolume
+08004a04 T mmMixerSetPan
+08004a12 T mmMixerInit
+08004b6c T mmResetEffects
+08004b98 T mmEffect
+08004bae T mmEffectEx
+08004ccc T mmEffectVolume
+08004ce8 T mmEffectPanning
+08004cfc T mmEffectRate
+08004d10 T mmEffectCancel
+08004d4a T mmEffectRelease
+08004d70 T mmEffectScaleRate
+08004d84 T mmSetEffectsVolume
+08004d92 T mmEffectCancelAll
+08004dd2 T mmUpdateEffects
+08004e6c T __aeabi_idiv
+08004e6c 00000130 T __divsi3
+08004e74 t .divsi3_skip_div0_test
+08004f9c 00000020 T __aeabi_idivmod
+08004fbc 00000002 W __aeabi_idiv0
+08004fbc 00000002 W __aeabi_ldiv0
+08004fc0 00000004 T _call_via_r0
+08004fc4 00000004 T _call_via_r1
+08004fc8 00000004 T _call_via_r2
+08004fcc 00000004 T _call_via_r3
+08004fd0 00000004 T _call_via_r4
+08004fd4 00000004 T _call_via_r5
+08004fd8 00000004 T _call_via_r6
+08004fdc 00000004 T _call_via_r7
+08004fe0 00000004 T _call_via_r8
+08004fe4 00000004 T _call_via_r9
+08004fe8 00000004 T _call_via_sl
+08004fec 00000004 T _call_via_fp
+08004ff0 00000004 T _call_via_ip
+08004ff4 00000004 T _call_via_sp
+08004ff8 00000004 T _call_via_lr
+08004ffc 00000010 T __set_ctype
+0800500c 00000054 T __libc_init_array
+08005064 00000018 T malloc
+0800507c 00000018 T free
+08005094 00000510 T _malloc_r
+080055a4 000000a2 T memset
+08005648 00000002 T __malloc_lock
+0800564c 00000002 T __malloc_unlock
+08005650 00000170 T _strtol_r
+080057c0 00000020 T strtol
+080057e0 000000a4 T _malloc_trim_r
+08005884 00000194 T _free_r
+08005a18 00000054 T _sbrk_r
+08005a6c t .udivsi3_skip_div0_test
+08005a6c T __aeabi_uidiv
+08005a6c 000000fc T __udivsi3
+08005b68 00000020 T __aeabi_uidivmod
+08005b88 00000028 T main
+08005bb0 0000000c t ____aeabi_idiv0_from_arm
+08005bbc 00000008 t ____aeabi_uidivmod_from_thumb
+08005bc4 00000008 t ____aeabi_idiv_from_thumb
+08005bcc 00000008 t ____aeabi_uidiv_from_thumb
+08005bd8 T __text_end
+08005bd8 T _fini
+08005be4 R soundbank_bin
+0801e490 R soundbank_bin_end
+0801e490 R soundbank_bin_size
+0801e494 000013ba R YearsToCome
+0801f850 00000063 R DaysinMonNum
+0801f8b4 000000b7 R Mins_secs
+0801f96c 00000030 R Months_short
+0801f99c 0000004b R Hoursofday
+0801f9e8 00000038 r __irq_senders
+0801fbfc 00000014 r srf.8643
+0801fc10 R sys8Font
+0801fc28 R sys8Glyphs
+0801ff28 R verdana9Font
+0801ff40 R verdana9Glyphs
+08020d40 R verdana9Widths
+08020e20 00000028 R chr4c_tab
+08020e64 00000101 R _ctype_
+08020f68 00000004 R _global_impure_ptr
+080212c4 d __EH_FRAME_BEGIN__
+080212c4 R __exidx_end
+080212c4 R __exidx_start
+080212c4 d __FRAME_END__
+080212c8 D __iwram_lma
+080227cc D __data_lma
+0802303c D __init_lma
+0802303c D __preinit_lma
+08023040 D __fini_lma
+08023044 D __jcr_lma
+08023048 D __ewram_lma
+08023048 D __iwram_overlay_lma
+08023048 A __load_start_iwram0
+08023048 A __load_stop_iwram0
+08023048 D __pad_lma
+08023050 D __rom_end__
